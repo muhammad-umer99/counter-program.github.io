@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg: #f0e9e3;
+}
+
+body {
+  background: var(--body-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-body {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.label-container {
+  background-image: linear-gradient(
+    to right top,
+    #fdd961,
+    #f6e15b,
+    #edea58,
+    #e1f356,
+    #d3fc58
+  );
+  height: 300px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#Count {
+  font-size: 75px;
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  column-gap: 2rem;
+}
+
+.counter-btns {
+  background: var(--body-bg);
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 25px;
+}
